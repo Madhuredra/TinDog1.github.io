@@ -1,0 +1,142 @@
+body{
+	font-family: 'Montserrat',sans-serif;
+}
+.title{
+	background-color: #ff4c68;
+}
+h1{
+	font-family: 'Montserrat-Bold', serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+.meet{
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.5;
+	padding: 1rem;
+	margin-left: -13px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.img{
+	width: 60%;
+	transform: rotate(20deg);
+	margin-left: 100px;
+	position: absolute;
+	left: 3%;
+
+}
+h3{
+	font-family: 'Montserrat-Bold'
+	font-weight:bold;
+	font-size: 1.5rem;
+
+}
+h2{
+	font-family: "Montserrat-Bold";
+	font-size: 3rem;
+	line-height: 1.5;
+	color: white;
+}
+p{
+	color: #8f8f8f;	
+}
+#features{
+	padding: 7% 15%;
+	background-color: #fff;
+	position: relative;
+}
+.feature-box{
+	padding: 7%;
+}
+.fas{
+	color: #ff4c68;
+	margin-left: 27px;
+	margin: 1rem;
+}
+i:hover{
+    color: orange;
+}
+#testimonials{
+	padding: 7% 15%;
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+}
+.testimonial-text{
+	font-weight: "Ubuntu",sans-serif;
+	font-weight: bold;
+	line-height: 1.5;
+	padding: 1rem;
+
+}
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+	background-color: #ef8172;
+	text-align: center;
+	padding: 3%;
+}
+.press-image{
+	width: 15%;
+	margin: 20px 20px 50px 15px;
+}
+.price{
+	font-family: "Montserrat-Bold";
+	color: black;
+}
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+.dog{
+	font-family: "Montserrat-Bold";
+	color: black;
+}
+.pricing1{
+	padding: 3% 2%;
+}
+.find{
+	text-align: center;
+	color: #fff;
+	font-family: "Ubuntu",sans-serif;
+	padding: 2rem;
+	line-height: 1.5;
+	font-size: 3.5rem;
+}
+.f1{
+	text-align: center;
+}
+#cta{
+	background-color: #ff4c68;
+	padding: 10%;
+}
+@media (max-width: 1028px){
+	#features{
+        text-align: center;   
+	}
+	.title{
+		text-align: center;
+	}
+	.img{
+		position: static;
+		transform: rotate(0);
+		margin-top: 40px;
+		margin-left: auto;
+	}
+}
+#footer{
+     text-align: center;
+     padding: 4rem;
+}
+
+
